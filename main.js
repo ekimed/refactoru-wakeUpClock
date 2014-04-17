@@ -82,7 +82,7 @@ $(document).on('ready', function() {
     setInterval(function(){
       var currentTime = new Date();
       var hours = currentTime.getHours();
-      if (hours >=12){
+      if (hours >= 12){
         $('#am-position').hide();
       }
       else{
